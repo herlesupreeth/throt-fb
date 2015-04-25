@@ -6,7 +6,7 @@ Throttling API client for Facebook Graph API.
 ## Install
 
 ```bash
-$ npm install throt-fb
+$ npm install git://github.com/herlesupreeth/throt-fb
 ```
 
 ## Run test
