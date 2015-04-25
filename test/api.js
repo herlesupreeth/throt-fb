@@ -33,9 +33,9 @@ describe('Throttled library for Facebook Graph API v2.*', function(){
     });
   });
 
-  it('should recieved status code 200, when POST /me/posts', function(done){
+  it('should recieved status code 200, when POST /me/feed', function(done){
     this.timeout(5000);
-    var url = '/me/posts';
+    var url = '/me/feed';
     var params = { message: 'Test message' };   
     api.post(url, params).then(function (data) {
       data.json.should.have.property('id');
